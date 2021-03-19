@@ -1,7 +1,10 @@
-# Week 8
+# Week 6-7
 **Version 1.0.0**
 
 Pixel perfect copies of two news articles.
+
+---
+
 ## Web inventor Sir Tim Berners-Lee warns of widening digital divide
 I chose an article from the Tech section of the BBC NEWS website. 
 https://www.bbc.com/news/technology-56367719
