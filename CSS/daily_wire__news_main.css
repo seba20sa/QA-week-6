@@ -1,0 +1,126 @@
+.main_article {
+    width: 60%;
+    margin-left: 20%  ;
+}
+#news_and_commentary {
+    color: rgb(217, 0, 0);
+    text-align: center;
+    font-size: 15px;    
+}
+h1 {
+    text-align: center;
+}
+#quoted_text {
+    text-align: center;
+    font-weight: bold;
+}
+#writer_info_element {
+    text-align: center;
+}
+#writer_info_element li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 5px;
+}
+#writer_info_element a {
+    text-decoration: none;
+}
+#writer_info_element span {
+    font-size: 15px;
+}
+#writer_info_element li:first-child span {
+    color: rgb(217, 0, 0);
+}
+#writer_info_element i {
+    margin: 0px 5px;
+    vertical-align: middle ;
+}
+.fa-facebook {
+    font-size: 28px;
+    color: rgb(58, 89, 153);
+    
+}
+.fa-twitter {
+    color: aliceblue;
+    background-color: rgb(87, 172, 238);
+    padding: 5px;
+    border-radius: 50%;
+}
+.fa-telegram {
+    font-size: 32px;
+    color: rgb(153, 153, 153);    
+}
+.article_image {
+    width: 100%;
+}
+.image_footer_notes {
+    font-size: 12px;
+    margin-left: 77%;
+}
+#thin_article {
+    font-family: Lato, sans-serif;
+    color: rgb(13, 13, 13);
+    font-weight: 400;
+    width: 86%;
+    margin-left: 7%;
+    line-height: 32px;
+    font-size: 20px;
+}
+#thin_article a {
+    color: rgb(13, 13, 13);
+}
+#thin_article a:hover {
+    color: rgb(217, 0, 0);
+}
+#tags_section li {
+    display: inline-block;
+    vertical-align: middle;
+    list-style-type: none;
+}
+#tags_section li:first-child {
+    margin-left: -35px;
+    margin-right: 10px;
+}
+#tags_section li:nth-child(2) {
+    
+    margin-right: 170px;
+}
+#tags_section li:nth-child(3) i {    
+    vertical-align: middle;
+}
+#tags_section li:nth-child(3) a {
+    text-decoration: none;
+}
+#tags_section a {
+    color: rgb(0, 119, 217);
+    margin-right: 4px;      
+}
+
+.fa-tags {
+    color: rgb(153, 153, 153);    
+}
+#up_next_element {
+    background-color: rgb(5, 5, 5);
+    margin: 35px -9px;    
+    line-height: 7px;
+}
+#up_next_element li {
+    display: inline-block;
+    vertical-align: middle;
+    list-style-type: none;
+}
+#up_next_element img {    
+    margin-right: 15px;
+}
+#up_next_element h2 {
+ color: rgb(225, 225, 225);   
+}
+#up_next_title {
+    font-size: 15px;
+    color: rgb(217, 0, 0);
+}
+#up_next_footer_notes {
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+}
+
