@@ -1,0 +1,55 @@
+header p, header a, header span {
+    color: white;    
+}
+header a {
+    text-decoration: none;
+}
+.jump_button {
+    background-color: red;
+    font-weight: 700;
+    margin-bottom: 20px;    
+}
+.jump_button a {
+    text-decoration: none;
+}
+.jump_button:hover {
+    background-color: yellow; 
+}
+.header_nav_bar {
+    margin: 0px -9px;  
+    background-color: rgb(5, 5, 5);
+    font-family: beaufortprobold, ReithSans,Helvetica,Arial,freesans,sans-serif;
+    padding: 20px 0px;
+}
+.header_nav_bar li {
+    display: inline-block;
+    vertical-align: middle ;
+}
+#header_icon {
+    margin-left: 20px;
+}
+.header_nav_bar i {
+    padding-right: 5px;
+}
+.header_nav_bar img {
+    margin-right: 400px;
+}
+.header_nav_bar a {
+    margin-bottom: auto;
+}
+.header_nav_bar button {
+    background-color: rgb(217, 0, 0);    
+    color: white;
+    padding: 9px 15px;
+    border-radius: 6px;
+    border: solid 1px black;
+}
+.header_nav_bar span {
+    padding-right: 30px;
+
+}
+.header_nav_bar i:last-child {   
+    margin-right: 30px;   
+    padding-right: 50px;    
+    border-right: solid 1px white;
+}
