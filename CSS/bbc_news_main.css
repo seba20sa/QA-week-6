@@ -1,5 +1,4 @@
-  
-.main_article { 
+  .main_article { 
     font-family: ReithSans,Helvetica,Arial,freesans,sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -65,10 +64,10 @@ h3 {
 #writer_info_element {
     margin-bottom: 10px;
 }
-#writer_info_element ul{
+#writer_info_element ul {
     display: inline-block;
 }
-#writer_info_element li{
+#writer_info_element li {
     list-style-type: none;
 }
 #writer_info_element a {
@@ -88,7 +87,6 @@ h3 {
 }
 .time_stamp_element i {
     margin-bottom: 25px;
-
 }
 #share_square {
     width: 70px;
@@ -110,10 +108,9 @@ h3 {
 }
 .main_article_img_holder img {
     margin-top: 40px;
-    width: 100%;
-      
+    width: 100%;      
 }
-#img_footer, #img_footer_2 {
+#img_footer_1, #img_footer_2 {
     background-color: rgb(63, 63, 66);
     color: rgb(238, 238, 238); 
     padding: 15px 0px;
@@ -132,7 +129,6 @@ h2 {
     border-top: solid 2px rgb(184, 0, 0);
     border-bottom: solid 2px rgb(184, 0, 0);    
 }
-
 #related_topics button  {    
     background-color: rgb(255, 255, 255);
     padding: 15px;
