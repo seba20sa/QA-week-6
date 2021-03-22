@@ -1,41 +1,39 @@
-.jump_button {    
+.jump_button {
     margin-left: 45px;
     background-color: rgb(184, 0, 0);
-    
     border: 1px;
     border-radius: 3px;
-    font-weight: 700;    
+    font-weight: 700;
 }
 .jump_button a {
     text-decoration: none;
-    color: rgb(63, 63, 66);    
+    color: rgb(63, 63, 66);
 }
 .jump_button:hover {
-    background-color: yellow;     
+    background-color: yellow;
 }
 /*The proptiertary font of BBC ReithSans doesn't render 
 so it goes to the next one*/
 header {    
-    font-family: ReithSans,Helvetica,Arial,freesans,sans-serif;
-    /* font-size: 18px;     */
+    font-family: ReithSans,Helvetica,Arial,freesans,sans-serif;    
     font-stretch: 100%;
     font-weight: 550;
 }
 .top_nav_bar {    
     margin-bottom: -13px;
-    list-style-type: none;    
-    background-color: rgb(255, 255, 255);    
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
 }
 .top_nav_bar span, .bottom_nav_bar i {
     font-size: 16px;
 }
 .top_nav_bar li {
+    display: inline;
     text-align: left;
     border-top: solid 2px rgb(186, 186, 186);
     border-left: solid 1px rgb(186, 186, 186);
     border-right: solid 1px rgb(186, 186, 186);
     border-bottom: solid 1px rgb(186, 186, 186);
-    display: inline;
 }
 .top_nav_bar i {
     color: rgb(63, 63, 66);
@@ -47,96 +45,95 @@ header {
     color: rgb(63, 63, 66);
 }
 .top_nav_bar li:first-child {
-    border-left: 0px;
     margin-left: -100px;
     padding: 15px 30px 15px 100px;
+    border-left: 0px;
 }
-.top_nav_bar li:first-child img {    
-    height:40px;
+.top_nav_bar li:first-child img {
+    height: 40px;
     margin-bottom: -13px;
 }
 .top_nav_bar li:nth-child(2) {
     text-align: left;
-    padding: 15px 140px 15px 30px;        
+    padding: 15px 140px 15px 30px;
 }
 .top_nav_bar li:nth-child(2):hover {
     border-bottom: 7px rgb(0,123,199) solid;
 }
 .top_nav_bar li:nth-child(3) {
     text-align: left;
-    padding: 15px 20px 15px 20px;    
+    padding: 15px 20px 15px 20px;
 }
 .top_nav_bar li:nth-child(3):hover {
     border-bottom: 7px rgb(0,123,199) solid;
 }
 .top_nav_bar li:nth-child(4) {
     text-align: left;
-    padding: 15px 15px 15px 20px;    
+    padding: 15px 15px 15px 20px;
 }
 .top_nav_bar li:nth-child(4):hover {
-    border-bottom: 7px rgb(184,0,0) solid;
+    border-bottom: solid 7px rgb(184,0,0);
 }
 .top_nav_bar li:nth-child(5):hover {
-    border-bottom: 7px rgb(255,210,48) solid;
+    border-bottom: solid 7px rgb(255,210,48);
 }
 .top_nav_bar li:nth-child(5) {
     text-align: left;
-    padding: 15px 15px 15px 20px;    
+    padding: 15px 15px 15px 20px;
 }
 .top_nav_bar li:nth-child(6):hover {
-    border-bottom: 7px rgb(0,104,255) solid;
+    border-bottom: solid 7px rgb(0,104,255);
 }
 .top_nav_bar li:nth-child(6) {
     text-align: left;
-    padding: 15px 20px 15px 20px;    
+    padding: 15px 20px 15px 20px;
 }
 .top_nav_bar li:nth-child(7):hover {
-    border-bottom: 7px rgb(0,82,161) solid;
+    border-bottom: solid 7px rgb(0,82,161);
 }
 .top_nav_bar li:nth-child(7) {
     text-align: left;
-    padding: 15px 15px 15px 15px;    
+    padding: 15px 15px 15px 15px;
 }
 .top_nav_bar li:nth-child(8):hover {
-    border-bottom: 7px rgb(88,158,80) solid;
+    border-bottom: solid 7px rgb(88,158,80);
 }
 .top_nav_bar li:nth-child(8) {
     text-align: left;
-    padding: 15px 10px 15px 15px;    
+    padding: 15px 10px 15px 15px;
 }
 .top_nav_bar li:nth-child(9):hover {
-    border-bottom: 7px rgb(0,40,86) solid;
+    border-bottom: solid 7px rgb(0,40,86);
 }
 .top_nav_bar li:nth-child(9) {
     text-align: left;
-    padding: 15px 10px 15px 15px;    
+    padding: 15px 10px 15px 15px;
 }
 .top_nav_bar li:nth-child(10):hover {
-    border-bottom: 7px rgb(63,63,66) solid;
+    border-bottom: solid 7px rgb(63,63,66);
 }
 .top_nav_bar li:nth-child(10) {
     text-align: left;
     padding: 15px 15px 15px 15px;
-    border-bottom: 7px rgb(63,63,66) solid;    
+    border-bottom: solid 7px rgb(63,63,66);    
 }
 /*the 10th element stays like that because that's how it is shown after it's clicked*/
 .top_nav_bar li:nth-child(11) {
     text-align: left;
-    padding: 15px 20px 15px 15px;    
+    padding: 15px 20px 15px 15px;
 }
 .top_nav_bar li:last-child {
-    
-    padding: 15px 20px 15px 15px;  
+    padding: 15px 20px 15px 15px;
 }
 /*Due to not been able to use JS so far, I will leave the hidden nav bar opened for display*/
-.first_hidden_nav_bar {   
+.first_hidden_nav_bar {
     list-style-type: none;
     background-color: rgb(255, 255, 255);
 }
 .first_hidden_nav_bar span {
     font-size: 16px;
 }
-.first_hidden_nav_bar a {  
+.first_hidden_nav_bar a {
     text-decoration: none;
 }
 .first_hidden_nav_bar li span {
@@ -147,17 +144,17 @@ header {
 }
 .first_hidden_nav_bar li:first-child {
     padding: 5px 120px 5px 10px;
-    margin:5px 5px 20px 0px ;
+    margin: 5px 5px 20px 0px;
 }
 .first_hidden_nav_bar li:first-child:hover {
-    background-color:rgb(63, 63, 66);        
+    background-color:rgb(63, 63, 66);
 }
 .first_hidden_nav_bar span:first-child:hover {
     color: rgb(255, 255, 255);
 }
 .first_hidden_nav_bar li:nth-child(2) {
     padding: 5px 120px 5px 20px;
-    margin:5px 5px 20px 0px ;
+    margin: 5px 5px 20px 0px ;
 }
 .first_hidden_nav_bar li:nth-child(2):hover {
     background-color:rgb(63, 63, 66);
@@ -180,7 +177,7 @@ header {
     margin:5px 5px 20px 0px ;
 }
 .first_hidden_nav_bar li:nth-child(4):hover {
-    background-color:rgb(63, 63, 66);        
+    background-color:rgb(63, 63, 66);
 }
 .first_hidden_nav_bar li:nth-child(4):hover
 {
@@ -191,7 +188,7 @@ header {
     margin:5px 5px 20px 0px ;
 }
 .first_hidden_nav_bar li:nth-child(5):hover {
-    background-color:rgb(63, 63, 66);        
+    background-color:rgb(63, 63, 66);
 }
 .first_hidden_nav_bar li:nth-child(6):hover
 {
@@ -199,41 +196,39 @@ header {
 }
 .first_hidden_nav_bar li:nth-child(6) {
     padding: 5px 70px 5px 10px;
-    margin:5px 5px 20px 0px ;
+    margin:5px 5px 20px 0px;
 }
 .first_hidden_nav_bar li:nth-child(6):hover {
-    background-color:rgb(63, 63, 66);        
+    background-color:rgb(63, 63, 66);
 }
-.first_hidden_nav_bar li:nth-child(5):hover
-{
+.first_hidden_nav_bar li:nth-child(5):hover {
     color: rgb(255, 255, 255);
 }
 .first_hidden_nav_bar li:last-child {
-    font-weight: 100;
     padding: 25px 20px 5px 20px;
     margin: 9px 50px 20px 107px;
+    font-weight: 100;
 }
-.first_hidden_nav_bar i:last-child {      
-    font-size:x-large;
+.first_hidden_nav_bar i:last-child {
     color: rgb(63, 63, 66);
+    font-size:x-large;
 }
-.first_hidden_nav_bar i:last-child:hover
-{    
+.first_hidden_nav_bar i:last-child:hover {
     color: rgb(255, 255, 255);
 }
 .first_hidden_nav_bar li:last-child:hover {
-    background-color:rgb(63, 63, 66);        
+    background-color:rgb(63, 63, 66);
 }
 .news_section_div {
-    background-color: rgb(184, 0, 0);
     margin: 0px -8px 0px -8px;
-    padding-top: 15px;    
+    padding-top: 15px;
+    background-color: rgb(184, 0, 0);
 }
 .news_section_div a {
-    text-decoration: none;    
+    text-decoration: none;
 }
 .news_section_div li {
-    list-style: none;    
+    list-style: none;
 }
 .news_section_div p {
     color:rgb(255, 255, 255) ;
@@ -244,15 +239,15 @@ header {
 .news_section_div i {
     color:rgb(255, 255, 255) ;
 }
-#main_title {    
+#main_title {
     display: inline;
+    padding: 5px 20px 5px 100px;
+    margin-left: -50px;
     font-size: 60px;
-    font-weight: 440;
-    padding: 5px 20px 5px 100px;    
-    margin-left: -50px;   
+    font-weight: 440;  
 }
 .bottom_nav_bar {
-    border-top: solid 1px  rgb(255, 255, 255);    
+    border-top: solid 1px  rgb(255, 255, 255);
 }
 .bottom_nav_bar li {
     display: inline-block;
@@ -270,10 +265,10 @@ header {
     border-right: 1px;
 }
 .bottom_nav_bar li:last-child {
-    border-left: solid 1px rgb(255, 255, 255);
-    border-right: 1px;
     margin: -9px 0px -10px 0px;
     padding: 9px 0px 10px 8px ;
+    border-left: solid 1px rgb(255, 255, 255);
+    border-right: 1px;
 }
 /*The burger menu's nav bar is shown as if the menu was already been clicked*/
 .burger_menu_hidden_nav_bar {
@@ -291,18 +286,18 @@ header {
     display: block;
     padding-right: 110px;
 }
- .burger_menu_hidden_nav_bar>ul:last-child li {    
-    border-right:  1px;
+ .burger_menu_hidden_nav_bar>ul:last-child li {
+    border-right: 1px;
 } 
 .burger_menu_hidden_nav_bar>ul>li>ul>li a {
     text-decoration: none;
 }
 .burger_menu_hidden_nav_bar>ul>li>ul>li span {
     display: block;
+    padding: 15px 50px 15px 5px;
+    color: rgb(63, 63, 66);
     font-size: 20px;
     font-weight: 400;
-    color: rgb(63, 63, 66);
-    padding: 15px 50px 15px 5px;    
 }
 .burger_menu_hidden_nav_bar>ul>li>ul>li span:hover {
     border-left:  solid 7px rgb(184, 0, 0);

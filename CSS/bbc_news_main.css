@@ -1,19 +1,20 @@
-  .main_article { 
+  .main_article {
+    display: inline-block; 
     font-family: ReithSans,Helvetica,Arial,freesans,sans-serif;
     font-size: 18px;
     font-weight: 400;
-    display: inline-block;  
 }
 .main_article p, .main_article span {
-    color:rgb(63, 63, 66);    
+    color:rgb(63, 63, 66);
 }
-a { 
+a {
     text-decoration: none;
 }
 h1 {
     color:rgb(63, 63, 66);
     font-weight: 600;
     font-size: 60px;
+    line-height: 60px;
 }
 h3 {
     font-size: 25px;
@@ -23,24 +24,25 @@ h3 {
     color: rgb(104, 104, 104);
 }
 .article_time_stamp {
-    color: rgb(104, 104, 104);
     margin-right: 30px;
+    color: rgb(104, 104, 104);
 }
 .main_article {
     display: inline-block;
-    width: 60%;    
+    width: 60%;
     margin-right: 100px;
     margin-left: 30px;
+    line-height: 25px;
 }
-#tech_section_title {    
-    width: 55px;    
-    border-bottom: solid 5px rgb(184, 0, 0);
+#tech_section_title {
+    width: 55px;
     margin-left: 40px;
     margin-top: 5px;
     margin-bottom: 30px;
     padding-bottom: 5px;
+    border-bottom: solid 5px rgb(184, 0, 0);
     font-size: 22px;
-    font-weight: 400; 
+    font-weight: 400;
 }
 .register_element {
     padding: 30px 0px;
@@ -50,10 +52,10 @@ h3 {
     display: inline;
 }
 .register_element p {
-    font-size: 22px;
     padding: 0px 40px;
     margin-left: 240px;
     color: rgb(255, 255, 255);
+    font-size: 22px;
 }
 .register_element button {
     font-size: 20px;
@@ -76,14 +78,14 @@ h3 {
 #writer_info_element a:hover {
     text-decoration: underline;
 }
-#writer_info_element img {    
+#writer_info_element img {
     margin-right: -10px;
     height: 70px;
     border-radius: 50%;
 }
 .time_stamp_element span {
-    color: rgb(104, 104, 104);
     margin-bottom: 25px;
+    color: rgb(104, 104, 104);
 }
 .time_stamp_element i {
     margin-bottom: 25px;
@@ -91,11 +93,11 @@ h3 {
 #share_square {
     width: 70px;
     height: 50px;
-    background-color: rgb(184, 0, 0);
     padding: 20px 0px 0px 0px;
     margin: 20px 0px;
+    background-color: rgb(184, 0, 0);
 }
-#share_square i {       
+#share_square i {
     font-size: 30px;
     color: rgb(255, 255, 255);
     margin-left: 20px;
@@ -104,19 +106,19 @@ h3 {
     background-color: rgb(63, 63, 66);
 }
 .main_article_img_holder {
-    border-top: solid 1px rgb(104, 104, 104);  
+    border-top: solid 1px rgb(104, 104, 104);
 }
 .main_article_img_holder img {
     margin-top: 40px;
-    width: 100%;      
+    width: 100%;
 }
 #img_footer_1, #img_footer_2 {
-    background-color: rgb(63, 63, 66);
-    color: rgb(238, 238, 238); 
     padding: 15px 0px;
-    margin-top: -5px;
+    margin-top: -7px;
     padding-left: 15px;
     text-align: justify;
+    background-color: rgb(63, 63, 66);
+    color: rgb(238, 238, 238);
 }
 .highlited_text {
     font-weight: bold;
@@ -127,24 +129,24 @@ h2 {
 }
 #related_topics {
     border-top: solid 2px rgb(184, 0, 0);
-    border-bottom: solid 2px rgb(184, 0, 0);    
+    border-bottom: solid 2px rgb(184, 0, 0);
 }
-#related_topics button  {    
-    background-color: rgb(255, 255, 255);
+#related_topics button {
     padding: 15px;
     margin-right: 3px;
     margin-top: 15px;
     margin-bottom: 60px;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(104, 104, 104);
     font-size: 18px;
     font-weight: bold;
-    border: solid 1px rgb(104, 104, 104);    
 }
 #related_topics a {
     color: rgb(63, 63, 66);
 }
 #related_topics button:hover, #related_topics a:hover {
     background-color: rgb(184, 0, 0);
-    color: rgb(255, 255, 255);    
+    color: rgb(255, 255, 255);
 }
 .more_stories p {
     font-size: 20px;
@@ -161,17 +163,17 @@ h2 {
     margin-left: -15px;
 }
 .more_stories span {
-    color: rgb(104, 104, 104);
     margin-left: -15px;
+    color: rgb(104, 104, 104);
 }
-.more_stories p:hover {    
+.more_stories p:hover {
     text-decoration: underline;
     color: rgb(184, 0, 0);
 }
 aside {
-    padding-top: 20px;
-    display: inline-block;
     width: 29%;
+    display: inline-block;
+    padding-top: 20px;
 }
 asise p, aside span {
     color: rgb(104, 104, 104)
@@ -189,8 +191,8 @@ aside ul {
     border-top: solid 3px rgb(184, 0, 0);
 }
 .aside_top_stories p {
-    font-size: 22px;
     margin-left: -35px;
+    font-size: 22px;
 }
 .time_stamp_element {
     margin-left: -35px;
@@ -206,8 +208,8 @@ aside ul {
     color: rgb(104, 104, 104)
 }
 .aside_features {
-    border-top: solid 3px rgb(184, 0, 0);
     margin-bottom: 70px;
+    border-top: solid 3px rgb(184, 0, 0);
 }
 .aside_features p {
     font-size: 25px;
@@ -217,10 +219,10 @@ aside ul {
     text-decoration: underline;
     color: rgb(184, 0, 0);
 }
-.aside_elsewhere {    
+.aside_elsewhere {
     border-top: solid 3px rgb(184, 0, 0);
 }
-.aside_elsewhere p {    
+.aside_elsewhere p {
     font-size: 25px;
     color: rgb(63, 63, 66);
 }
@@ -239,8 +241,8 @@ aside ul {
     border-top: solid 3px rgb(184, 0, 0);
 }
 .aside_most_read li {
-    border-bottom: solid 1px rgb(104, 104, 104);
     margin-left: -35px;
+    border-bottom: solid 1px rgb(104, 104, 104);
 }
 .aside_most_read li:last-child {
     border-bottom: 1px;
