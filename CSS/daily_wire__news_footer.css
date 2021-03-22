@@ -54,16 +54,19 @@ footer>ul li:nth-child(2)>ul li {
 footer>ul li:nth-child(2)>ul li a {    
     text-decoration: none;
     font-size: 15px;
-    line-height: 45px;
+    line-height: 50px;
 }
 footer>ul li:nth-child(3)>ul li {
     display: block;
     text-decoration: none;
 }
-footer>ul li:nth-child(3)>ul li a {
+footer>ul li:nth-child(3)>ul li a {    
     text-decoration: none;
     font-size: 15px;
-    line-height: 35px;
+    line-height: 60px;
+}
+#footer_social_media_icons {
+    margin-top: 30px;
 }
 #footer_social_media_icons i {
     text-align: center;
