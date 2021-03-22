@@ -1,0 +1,90 @@
+footer {
+    padding: 30px 0px 0px 0px;    
+    background-color: rgb(5, 5, 5);
+    margin: 50px -9px 10px -9px;
+}
+footer a, footer h3{
+    font-family: Lato, sans-serif;
+    color: rgb(225, 225, 225);
+}
+footer h3 {    
+    font-size: 30px;
+    text-align: center;
+}
+footer form {
+    text-align: center;
+    padding-bottom: 60px;
+    
+}
+form input {    
+    background-color: rgb(51, 51, 51);    
+    border: 1px;
+    border-radius: 7px;
+    height: 47px;
+    width: 25%;
+}
+form input{
+    color: rgb(225, 225, 225);
+    padding-left: 13px;
+}
+form button {    
+    background-color: rgb(217, 0, 0);
+    height: 50px;
+    width: 65px;
+    border: 1px;
+    border-radius: 3px;
+    color: rgb(225, 225, 225);
+    font-size: 18px;
+}
+footer>ul li{
+    display: inline-block;    
+}
+footer>ul li:first-child{
+    vertical-align: top;
+}
+footer>ul li:last-child{
+    vertical-align: top;
+}
+footer>ul li>ul {
+    padding-right: 70px;
+}
+footer>ul li:nth-child(2)>ul li {    
+    display: block;        
+}
+footer>ul li:nth-child(2)>ul li a {    
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 45px;
+}
+footer>ul li:nth-child(3)>ul li {
+    display: block;
+    text-decoration: none;
+}
+footer>ul li:nth-child(3)>ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 35px;
+}
+#footer_social_media_icons i {
+    text-align: center;
+    width: 20px;
+    background-color: rgb(5, 5, 5);
+    color: rgb(225, 225, 225);
+    
+}
+#footer_social_media_icons a {    
+    padding: 7px;
+    margin: 0px 7px;
+    border: solid  1px rgb(225, 225, 225);    
+    border-radius: 3px;
+}
+
+
+
+#credits {
+    padding: 20px 0px;
+    color: rgb(225, 225, 225);
+    text-align: center;
+    font-size: 12px;
+}
+
