@@ -17,5 +17,3 @@ I chose an article from the Tech section of the Dailywire website.
 ---
 
 © Sebastian Sileoni seba20sa@gmail.com
-
-
